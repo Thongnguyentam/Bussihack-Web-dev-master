@@ -1,0 +1,53 @@
+.login-page {
+    height: 100vh;
+    width: 100%;
+}
+
+.login-header {
+    height: 30vh;
+}
+
+.login-form {
+    margin: 20px auto;
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form div {
+    width: 40%;
+    align-items: center;
+    height: 20%
+}
+
+.login-input {
+    align-items: center;
+    display: flex;
+}
+
+input {
+    background-color: #ffffff;
+    border-radius: 31px;
+    color: #8f8fa1;
+    font-family: Ubuntu-Bold;
+    font-size: 18px;
+    line-height: 21.6px;
+    padding: 0px 35px;
+}
+
+button {
+    align-items: flex-start;
+    background-color: #41b14f;
+    border-radius: 11px;
+    color: #ffffff;
+    font-family: Mija;
+    font-size: 19.1011px;
+    font-weight: 700;
+    line-height: 21.9662px;
+    padding: 17.191px 19.1011px;
+    text-align: center;
+    text-shadow: #000000 1px 1px 1px;
+    width: 39%;
+}
