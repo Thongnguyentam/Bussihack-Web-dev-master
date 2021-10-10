@@ -7,10 +7,12 @@ function Upload_text() {
     function handleClick(event) {
         var text = document.getElementsByClassName("text");
         var description = document.getElementsByClassName("description");
+        var name = document.getElementsByClassName("name");
       setListItem(
         <Card
           text=""
-          description=" Ur really XXX. YOU XXX, go XXX yourself"
+              description=" 'Ur really XXX. YOU XXX, go XXX yourself' "
+              name="This is a message with toxicity level 10. Are you sure you want to send it?"
         />
       );
     };

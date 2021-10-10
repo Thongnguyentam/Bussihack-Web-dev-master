@@ -7,10 +7,13 @@ function Upload() {
     function handleClick(event) {
         var text = document.getElementsByClassName("text");
         var description = document.getElementsByClassName("description");
+
+        var name = document.getElementsByClassName("name");
       setListItem(
         <Card
           text="Cubu"
-          src="assets/images/example.png"
+              src="assets/images/example.png"
+              name="This is a message with toxicity level 15. Are you sure you want to send it?"
         />
       );
     };
